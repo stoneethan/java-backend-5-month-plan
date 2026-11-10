@@ -1,0 +1,25 @@
+# Local environment
+.env
+.env.*
+!.env.example
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Runtime data
+data/
+logs/
+tmp/
+
+# Secrets and credentials
+*.pem
+*.key
+secrets/
+credentials/
+
+# OS
+.DS_Store
+Thumbs.db
